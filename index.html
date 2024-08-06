@@ -11,22 +11,28 @@
 <body class="bg-neutral-100 text-gray-800 font-sans">
 
     <!-- Navigation Bar -->
-    <header class="bg-[#FDE4B7] shadow h-24">
-        <nav class="container mx-auto flex items-center">
-            <a href="/index.html" class="font-bold text-black-600">
-                <!-- <img src="./CCC_logo.png" alt="Logo" class="h-48"> -->
-                logo + menu
-            </a>
+    <header class="bg-[#FDE4B7] shadow max-w-8xl mx-auto">
+        <nav class="py-4 border-b border-slate-900/10 lg:px-2 lg:border-0 dark:border-slate-300/10 mx-4 lg:mx-0">
+            <div class="relative flex items-center justify-center">
+                <a href="/index.html" class="font-bold text-black-600 mr-3 overflow-hidden md:w-auto">
+                    <img src="/images/CCC_logo.png" alt="Logo" class="max-h-40">
+                </a>
+            </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-emerald-500 text-white py-20">
-        <div class="flex justify-center gap-8">
-            <div class="flex flex-col content-center text-center">
-                <h1 class="text-4xl font-bold mb-4">Join to Conscious creators community</h1>
-                <p class="text-lg mb-8">intro intro intro</p>
-                <a href="#services" class="bg-white text-emerald-600 px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-200 transition">
+    <section class="bg-emerald-500 text-white h-auto">
+        <div class="flex justify-center gap-8 p-20">
+            <div class="flex flex-col items-center text-center">
+                <h1 class="text-2xl lg:text-5xl font-bold mb-10">
+                    Join to Conscious Creators Community
+                </h1>
+                <p class="text-lg mb-8 max-w-prose">
+                    A free online community for support, feedback and inspiration with live calls and a virtual community space. 
+                    We will motivate each other with workshops, group meditations and more.
+                </p>
+                <a href="https://forms.gle/22JPf4R9hXpgen4L8" target="_blank" class="bg-white text-emerald-600 px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-200 transition w-80">
                     Open Google Forms to apply
                 </a>
             </div>
@@ -36,11 +42,18 @@
     <!-- Services Section -->
     <section id="services" class="py-20">
         <div class="container mx-auto text-center">
-            <h2 class="text-xl font-bold text-gray-900 mb-8">Community moderators</h2>
+            <h2 class="text-xl md:text-3xl font-bold text-gray-900 p-8">Community moderators</h2>
             <div class="flex m-6 gap-8 flex-col md:flex-row justify-center">
+
                 
                 <div class="bg-white p-8 rounded-lg shadow-lg text-center">
-                    <h3 class="text-xl font-bold mb-4">Kim</h3>
+
+                    <h3 class="text-xl font-bold">Kim</h3>
+
+                    <div class="w-32 h-32 rounded-full overflow-hidden mx-auto m-6">
+                        <img class="object-cover w-full h-full" src="/images/kim.JPEG" alt="Kim's profile picture">
+                    </div>
+                    
                     <div class="md:max-w-sm self-center text-gray-600 flex flex-col gap-4">
                         <p>
                             I was born and raised in Germany and nowadays based somewhere between Amsterdam and the world, but dreaming of living in a hippie beach town in Central or South America (my favorite area in the world). 
@@ -53,7 +66,13 @@
                 </div>
                 
                 <div class="bg-white p-8 rounded-lg shadow-lg">
+
                     <h3 class="text-xl font-bold mb-4">Bram</h3>
+
+                    <div class="w-32 h-32 rounded-full overflow-hidden mx-auto m-6">
+                        <img class="object-cover w-full h-full" src="/images/bram.JPEG" alt="Bram's profile picture">
+                    </div>
+
                     
                     <div class="md:max-w-sm self-center text-gray-600 flex flex-col gap-4">
                         <p>
@@ -70,32 +89,14 @@
         </div>
     </section>
 
-    <!-- Testimonials Section
-    <section class="bg-amber-50 py-20">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold text-gray-800 mb-8">Our community tools</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-lg shadow-lg">
-                    <h3 class="text-lg font-semibold">Discord</h3>
-                </div>
-                <div class="bg-white p-8 rounded-lg shadow-lg">
-                    <h3 class="text-lg font-semibold">Google Forms</h3>
-                </div>
-                <div class="bg-white p-8 rounded-lg shadow-lg">
-                    <h3 class="text-lg font-semibold">Zoom</h3>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
     <!-- Footer -->
-    <footer class="bg-emerald-500 text-white py-6">
-        <div class="container mx-auto text-center">
+    <footer class="bg-emerald-500 text-white py-8">
+        <div class="container mx-auto text-center px-6">
             <p>&copy; 2024 Conscious Creators Community. All rights reserved.</p>
-            <nav class="mt-4">
+            <!-- <nav class="mt-4">
                 <a href="#" class="text-gray-300 hover:text-white mx-2">Privacy Policy</a>
                 <a href="#" class="text-gray-300 hover:text-white mx-2">Terms of Service</a>
-            </nav>
+            </nav> -->
         </div>
     </footer>
 
